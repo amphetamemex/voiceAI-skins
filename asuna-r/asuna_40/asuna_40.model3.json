@@ -1,0 +1,129 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "165 208.moc3",
+		"Textures": [
+			"165 208.4096/texture_00.png",
+			"165 208.4096/texture_01.png",
+			"165 208.4096/texture_02.png",
+			"165 208.4096/texture_03.png"
+		],
+		"Physics": "165 208.physics3.json",
+		"DisplayInfo": "165 208.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "02 dance 2b",
+				"File": "exp/02 dance 2b.exp3.json"
+			},
+			{
+				"Name": "ACC 1 [WAVY MOUTH]",
+				"File": "exp/ACC 1 [WAVY MOUTH].exp3.json"
+			},
+			{
+				"Name": "ACC 2 [BRB]",
+				"File": "exp/ACC 2 [BRB].exp3.json"
+			},
+			{
+				"Name": "EXP 1 [LOVE]",
+				"File": "exp/EXP 1 [LOVE].exp3.json"
+			},
+			{
+				"Name": "EXP 10 [YANDERE]",
+				"File": "exp/EXP 10 [YANDERE].exp3.json"
+			},
+			{
+				"Name": "EXP 2 [EXCITED]",
+				"File": "exp/EXP 2 [EXCITED].exp3.json"
+			},
+			{
+				"Name": "EXP 3 [SAD]",
+				"File": "exp/EXP 3 [SAD].exp3.json"
+			},
+			{
+				"Name": "EXP 4 [POUT]",
+				"File": "exp/EXP 4 [POUT].exp3.json"
+			},
+			{
+				"Name": "EXP 5 [ANGRY]",
+				"File": "exp/EXP 5 [ANGRY].exp3.json"
+			},
+			{
+				"Name": "EXP 6 [SHOCKED]",
+				"File": "exp/EXP 6 [SHOCKED].exp3.json"
+			},
+			{
+				"Name": "EXP 7 [CONFUSED]",
+				"File": "exp/EXP 7 [CONFUSED].exp3.json"
+			},
+			{
+				"Name": "EXP 8 [SCARED]",
+				"File": "exp/EXP 8 [SCARED].exp3.json"
+			},
+			{
+				"Name": "EXP 9 [BLUSH]",
+				"File": "exp/EXP 9 [BLUSH].exp3.json"
+			},
+			{
+				"Name": "chibi",
+				"File": "exp/chibi.exp3.json"
+			},
+			{
+				"Name": "idle",
+				"File": "exp/idle.exp3.json"
+			},
+			{
+				"Name": "jump 2b",
+				"File": "exp/jump 2b.exp3.json"
+			},
+			{
+				"Name": "normal jump",
+				"File": "exp/normal jump.exp3.json"
+			},
+			{
+				"Name": "walk 2b",
+				"File": "exp/walk 2b.exp3.json"
+			}
+		]
+		"motions":{
+		"":[
+			{"file":"mtn/I_ANGRY_W.mtn"},
+			{"file":"mtn/I_FUN.mtn"},
+			{"file":"mtn/I_FUN_S.mtn"},
+			{"file":"mtn/I_FUN_W.mtn"},
+			{"file":"mtn/I_SAD.mtn"},
+			{"file":"mtn/I_SAD_S.mtn"},
+			{"file":"mtn/I_SAD_W.mtn"},
+			{"file":"mtn/I_SNEESE.mtn"},
+			{"file":"mtn/I_SURPRISE.mtn"},
+			{"file":"mtn/I_SURPRISE_S.mtn"},
+			{"file":"mtn/I_SURPRISE_W.mtn"},
+			{"file":"mtn/REPEAT_01.mtn"},
+			{"file":"mtn/REPEAT_02.mtn"},
+			{"file":"mtn/REPEAT_03.mtn"},
+			{"file":"mtn/I_ANGRY.mtn"},
+			{"file":"mtn/I_ANGRY_S.mtn"}
+		],
+		"idle":[
+			{"file":"mtn/IDLING.mtn"},
+			{"file":"mtn/IDLING_02.mtn"},
+			{"file":"mtn/IDLING_03.mtn"}
+		]
+	},
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"HitAreas": []
+}
